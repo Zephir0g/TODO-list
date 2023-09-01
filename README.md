@@ -1,25 +1,35 @@
-# TODO List Application
+# 📝 TODO List Application
 
-## Overview
+---
 
-This is a Spring Boot-based TODO list application. It allows users to manage their tasks effectively. Users can add, mark as complete, and delete tasks.
+## 🌟 Overview
 
-## Features
+This is a Spring Boot-based TODO list application that allows you to manage your tasks effectively.
 
-- Add new tasks
-- Mark tasks as complete
-- Delete tasks
-- View all tasks
+![Overview](src/main/resources/overview.jpg)
 
-## Technologies Used
+---
 
-- Java
-- Spring Boot
-- Thymeleaf
-- HTML, CSS, JavaScript
-- Database: MySQL 
+## 🚀 Features
 
-## Project Structure
+- 📌 **Add New Tasks**: Easily add new tasks to your list.
+- ✅ **Mark Tasks as Complete**: Swipe or click to mark tasks as done.
+- 🗑️ **Delete Tasks**: Remove tasks that you no longer need.
+- 👀 **View All Tasks**: See all your tasks in one place.
+
+---
+
+## 🛠 Technologies Used
+
+- **Java**
+- **Spring Boot**
+- **Thymeleaf**
+- **HTML, CSS, JavaScript**
+- **Database**: MySQL
+
+---
+
+## 📂 Project Structure
 
 - `SpringTodoListApplication.java`: Main Spring Boot application file.
 - `Config.java`: Configuration file for the Spring application.
@@ -28,20 +38,36 @@ This is a Spring Boot-based TODO list application. It allows users to manage the
 - `TodoElementRepo.java`: Repository interface for the TODO elements.
 - `TodoElementService.java`: Service class for managing TODO elements.
 - `application.properties`: Spring Boot application properties.
-- Front-end files: `css.css`, `index.html`, `markTaskAsComplete.js`, `script.js`
-- HTML fragments: `completeTaskFragment.html`, `notCompletedTaskFragment.html`
-- Test files: `SpringTodoListApplicationTests.java`
 
-## Database Configuration
+---
 
-This project uses MySQL for database management. The login credentials are as follows:
+## 🗄 Database Configuration
 
-- Username: `root`
-- Password: None (No password)
-- Name of the database: `TODOList`
+This project uses MySQL for database management.
 
-## How to Run
+🔐 **Login Credentials**:
 
-1. Clone the repository
-2. Navigate to the project directory
-3. Run `./gradlew bootRun`
+- **Username**: `root`
+- **Password**: None (No password)
+- **Database Name**: `TODOList`
+
+---
+
+## 🚀 How to Run
+
+1️⃣ **Clone the repository**
+\```bash
+git clone https://github.com/Zephir0g/TODO-list.git
+\```
+
+2️⃣ **Navigate to the project directory**
+\```bash
+cd TODO-list
+\```
+
+3️⃣ **Run the application**
+\```bash
+./gradlew bootRun
+\```
+
+---
