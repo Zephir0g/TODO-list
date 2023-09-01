@@ -1,3 +1,5 @@
+/*Not used*/
+
 function updateCharacterCount() {
     const textarea = document.getElementById('task');
     const characterCountElement = document.getElementById('character-count');
