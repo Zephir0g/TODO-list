@@ -56,18 +56,14 @@ This project uses MySQL for database management.
 ## 🚀 How to Run
 
 1️⃣ **Clone the repository**
-\```bash
-git clone https://github.com/Zephir0g/TODO-list.git
-\```
+`git clone https://github.com/Zephir0g/TODO-list.git`
 
 2️⃣ **Navigate to the project directory**
-\```bash
-cd TODO-list
-\```
+`cd TODO-list`
 
 3️⃣ **Run the application**
-\```bash
-./gradlew bootRun
-\```
+`./gradlew bootRun`
+
+
 
 ---
