@@ -1,0 +1,100 @@
+#list1 .form-control {
+    border-color: transparent;
+}
+
+#list1 .form-control:focus {
+    border-color: transparent;
+    box-shadow: none;
+}
+
+#list1 .select-input.form-control[readonly]:not([disabled]) {
+    background-color: #fbfbfb;
+}
+
+/*ul {
+    border: 1px solid black;
+    border-radius: 10px;
+}*/
+
+.task-text{
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.task-text:hover{
+    /*background-color: gray;*/
+    transform: scale(1.05);
+}
+
+.completed-task{
+    background-color: #b5b5b5;
+    border-radius: 7px;
+}
+
+.custom-modal {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content {
+    max-width: 300px;
+    margin: auto;
+}
+
+/*
+neu
+*/
+
+/*Scale-up Animation on Add Button Hover:*/
+button.btn-primary:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
+}
+
+button.btn-danger:hover {
+    animation: shake 0.5s cubic-bezier(.36,.07,.19,.97) both;
+}
+
+/*Shake Animation for Delete Button:*/
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+/*Smooth Color Transition for Form Fields:*/
+input.form-control {
+    transition: background-color 0.1s ease;
+}
+
+input.form-control:focus {
+    background-color: #e6e6e6;
+}
+
+/*Card Fade-In*/
+.card {
+    opacity: 0;
+    animation: fadeIn ease 0.3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    100% {
+        opacity: 1;
+    }
+}
